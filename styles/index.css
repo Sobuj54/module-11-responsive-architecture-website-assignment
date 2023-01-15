@@ -184,4 +184,28 @@ margin-bottom: 100px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+/* styling footer */
+.footer {
+    margin-top: 100px;
+    background-color: #0a0826;
+    width: 100%;
+    height: 300px;
+  }
+  .footer-info {
+    text-align: center;
+    color: white;
+    padding: 50px;
+  }
+  .footer-info .footer-title {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Poppins';
+  }
+  .footer-info h3 {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .footer-info .footer-links a {
+    color: white;
+  }
 
