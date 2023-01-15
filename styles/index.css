@@ -4,7 +4,7 @@
 </style>
 /* styling whole header */
 .head {
-  background: rgba(255, 144, 14, 0.1);
+    background: rgba(255, 144, 14, 0.1);
 }
 /* styling navigation bar */
 .nav-bar {
@@ -90,7 +90,7 @@
 }
 /* styling section-2 */
 .section-2 {
-  margin: 130px 150px;
+  margin: 50px 150px;
 }
 .section-2-contents {
   display: flex;
@@ -139,3 +139,49 @@
   width: 242px;
   height: 150px;
 }
+/* section-3 styles */
+.section-3-article{
+    margin-left: 150px;
+}
+.section-3-article .article-head{
+    font-weight: 700;
+font-size: 45px;
+}
+.section-3-article .section-3-para{
+    font-weight: 400;
+font-size: 16px;
+margin-right: 850px;
+margin-bottom: 100px;
+}
+/* styling section 3 logos */
+.section-3 .logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+    
+}
+.logo{
+    padding: 30px;
+    border: 2px solid yellow;
+}
+.logo:hover{
+    background-color: aqua;
+    color: white;
+}
+/* styling section-4 */
+
+.section-4-description{
+    margin-top: 150px;
+    text-align: center;
+}
+.section-4-logos{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 150px 50px 150px;
+}
+.section-4 .logos img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
