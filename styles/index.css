@@ -1,10 +1,13 @@
 /* styles for the whole code */
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@500&display=swap');
-</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@500&display=swap');
 /* styling whole header */
-.head {
-    background: rgba(255, 144, 14, 0.1);
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+body {
+  font-family: 'Work Sans', sans-serif;
 }
 /* styling navigation bar */
 .nav-bar {
@@ -108,7 +111,7 @@
 
   height: 106px;
 }
-.section-2-description .descriptin-para {
+.section-2-description .description-para {
   font-weight: 400;
   font-size: 16px;
 }
@@ -140,72 +143,70 @@
   height: 150px;
 }
 /* section-3 styles */
-.section-3-article{
-    margin-left: 150px;
+.section-3-article {
+  margin-left: 150px;
 }
-.section-3-article .article-head{
-    font-weight: 700;
-font-size: 45px;
+.section-3-article .article-head {
+  font-weight: 700;
+  font-size: 45px;
 }
-.section-3-article .section-3-para{
-    font-weight: 400;
-font-size: 16px;
-margin-right: 850px;
-margin-bottom: 100px;
+.section-3-article .section-3-para {
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 850px;
+  margin-bottom: 100px;
 }
 /* styling section 3 logos */
-.section-3 .logos{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
-    align-items: center;
-    
+.section-3 .logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  align-items: center;
 }
-.logo{
-    padding: 30px;
-    border: 2px solid yellow;
+.logo {
+  padding: 30px;
+  border: 2px solid yellow;
 }
-.logo:hover{
-    background-color: aqua;
-    color: white;
+.logo:hover {
+  background-color: aqua;
+  color: white;
 }
 /* styling section-4 */
 
-.section-4-description{
-    margin-top: 150px;
-    text-align: center;
+.section-4-description {
+  margin-top: 150px;
+  text-align: center;
 }
-.section-4-logos{
-    display: flex;
-    justify-content: space-between;
-    margin: 70px 150px 50px 150px;
+.section-4-logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 150px 50px 150px;
 }
-.section-4 .logos img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+.section-4 .logos img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 /* styling footer */
 .footer {
-    margin-top: 100px;
-    background-color: #0a0826;
-    width: 100%;
-    height: 300px;
-  }
-  .footer-info {
-    text-align: center;
-    color: white;
-    padding: 50px;
-  }
-  .footer-info .footer-title {
-    font-weight: 700;
-    font-size: 24px;
-    font-family: 'Poppins';
-  }
-  .footer-info h3 {
-    font-weight: 700;
-    font-size: 14px;
-  }
-  .footer-info .footer-links a {
-    color: white;
-  }
-
+  margin-top: 100px;
+  background-color: #0a0826;
+  width: 100%;
+  height: 300px;
+}
+.footer-info {
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+.footer-info .footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+.footer-info h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer-info .footer-links a {
+  color: white;
+}
