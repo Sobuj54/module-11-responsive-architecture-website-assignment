@@ -1,0 +1,141 @@
+/* styles for the whole code */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@500&display=swap');
+</style>
+/* styling whole header */
+.head {
+  background: rgba(255, 144, 14, 0.1);
+}
+/* styling navigation bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar .nav-heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: #131313;
+  margin-left: 228px;
+  margin-top: 50px;
+}
+.nav-bar .nav-tools {
+  display: flex;
+  gap: 40px;
+  margin: 70px 200px;
+}
+/* styling article part of the header */
+.header-section {
+  text-align: center;
+  margin: 60px 400px 50px 400px;
+}
+.header-article .article-head {
+  font-weight: 700;
+  font-size: 64px;
+}
+.header-article .article-para {
+  font-weight: 400;
+  font-size: 16px;
+}
+.btn-primary {
+  background-color: #ff900e;
+  width: 180px;
+  height: 64px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+.header-section .header-image {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+/* styling section-1 of main section */
+.section-1 {
+  display: flex;
+  gap: 73px;
+  margin: 70px 200px 130px 200px;
+}
+.section-1 .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+}
+.section-1 .description {
+  margin-top: 200px;
+}
+.description-heading .quick {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+}
+.description-heading .our {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.description-heading .features {
+  color: #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+}
+.description .article-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+/* styling section-2 */
+.section-2 {
+  margin: 130px 150px;
+}
+.section-2-contents {
+  display: flex;
+  gap: 54px;
+}
+
+.section-2-description .first-description {
+  margin-bottom: 100px;
+}
+.section-2-description .first-head {
+  font-weight: 700;
+  font-size: 45px;
+
+  border-left: 6px solid #ff900e;
+
+  height: 106px;
+}
+.section-2-description .descriptin-para {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* styling section-2 rest description */
+.section-2-rest {
+  padding-left: 30px;
+}
+.rest-description .rest-head {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.rest-description .description-para {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 75px;
+}
+/* section-2 button styles */
+.section-2 .btn-primary {
+  position: relative;
+  left: 420px;
+  bottom: 190px;
+
+  font-weight: 700;
+  font-size: 35px;
+
+  width: 242px;
+  height: 150px;
+}
